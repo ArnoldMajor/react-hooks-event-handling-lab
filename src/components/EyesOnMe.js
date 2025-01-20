@@ -2,11 +2,11 @@
 
 function EyesOnMe() {
     function handleFocus() {
-        console.log("Good!")
+        return console.log("Good!")
     }
 
     function handleBlur() {
-        console.log("Hey! Eyes on me!")
+        return console.log("Hey! Eyes on me!")
     }
 
     return (
